@@ -28,15 +28,16 @@ time, mark, audio, video {
 
 body {
 	font-family: "freight-sans-pro";
-	background: #ccc url('creampaper.png');
+	font-size: 1.1em;
+	background: rgb(24, 94, 158);
+	color: rgb(250, 250, 250);
 }
 
 #wrapper {
 	margin: 60px auto;
-	padding: 20px 40px 60px 40px;
+
 	width: 540px;
-	background-color: #fafafa;
-	box-shadow: 0 0 10px #999;
+
 }
 
 h1 {
@@ -121,13 +122,15 @@ strong {
 
 @media print {
 
-	#body {
+	body {
+		font-size: 1em;
 		background-color: #fff;
+		color: #000;
 	}
 
 	#wrapper {
 		padding-top: 0px;
-		margin-top: 20px;
+		margin-top: 0;
 		background-color: #fff;
 		width: 90%;
 		box-shadow: none;
@@ -144,3 +147,7 @@ strong {
 		font-size: 5em;
 	}
 }
+
+
+
+
