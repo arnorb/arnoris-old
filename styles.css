@@ -33,7 +33,7 @@ html {
 }
 
 body {
-	font-family: "freight-sans-pro";
+	font-family: "freight-sans-pro", "Helvetica Neue", "Helvetica", sans-serif;
 	font-size: 1.1em;
 	background: #fafafa;
 	color: rgb(240, 240, 240);
