@@ -35,8 +35,8 @@ html {
 body {
 	font-family: "freight-sans-pro";
 	font-size: 1.1em;
-	background: rgb(24, 94, 158);
-	color: rgb(250, 250, 250);
+	background: #fafafa;
+	color: rgb(240, 240, 240);
 }
 
 #wrapper {
