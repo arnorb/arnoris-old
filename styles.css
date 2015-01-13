@@ -33,8 +33,7 @@ html {
 }
 
 body {
-	font-family: "freight-sans-pro", "Helvetica Neue", "Helvetica", sans-serif;
-	font-size: 1.1em;
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
 	background: #fafafa;
 	color: rgb(10, 10, 10);
 }
@@ -43,114 +42,6 @@ body {
 	margin: 60px auto;
 	max-width: 540px;
 	width: 90%;
-}
-
-h1 {
-	font-size: 3em;
-	line-height: 1.8;
-	font-weight: 300;
-	float: left;
-}
-
-h2 {
-	font-size: 1em;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-top: 30px;
-	clear: both;
-}
-
-h2 + h3 {
-	padding-top: 0px;
-}
-
-h3 {
-	font-weight: 300;
-	padding-top: 10px;
-}
-
-p > span {
-	font-weight: 500;
-}
-
-strong {
-	font-weight: 500;
-}
-
-.contact {
-	float: left;
-	clear: right;
-	padding-left: 80px;
-	padding-top: 20px;
-}
-
-.contact ul {
-	list-style-type: none;
-
-}
-
-.contact ul li {
-
-}
-
-.page-break {
-	display: none;
-}
-
-@media screen and (max-width: 539px) {
-
-	body {
-		font-size: 3.2em;
-	}
-
-	#wrapper {
-		width: 100%;
-		margin: 0;
-	}
-
-	h1 {
-		font-size: 2em;
-		font-weight: 400;
-		float: none;
-	}
-
-	h2 {
-		padding-top: 40px;
-		line-height: 1.2;
-	}
-
-	.contact {
-		padding: 0 0 30px 0;
-	}
-
-}
-
-@media print {
-
-	body {
-		font-size: 1em;
-		background-color: #fff;
-		color: #000;
-	}
-
-	#wrapper {
-		padding-top: 0px;
-		margin-top: 0;
-		background-color: #fff;
-		width: 90%;
-		box-shadow: none;
-	}
-
-	.page-break {
-		display: block;
-		page-break-before: always;
-		height: 50%;
-	}
-
-
-	h2:nth-child(4) {
-		font-size: 5em;
-	}
 }
 
 
